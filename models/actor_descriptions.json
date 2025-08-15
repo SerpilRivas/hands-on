@@ -1,0 +1,5 @@
+{
+  "State-Sponsored": "Well-resourced; valid SSL and subtle domain tricks; long-term objectives; strong OPSEC.",
+  "Organized Cybercrime": "Financially motivated; high-volume noisy campaigns; shorteners/IPs; disposable infra.",
+  "Hacktivist": "Cause-driven; opportunistic; political keywords; variable tradecraft; shorter-lived infra."
+}

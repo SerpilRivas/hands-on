@@ -1,0 +1,9 @@
+services:
+  mini-soar-app:
+    build: .
+    container_name: mini-soar
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./:/app
+    command: /bin/sh -c "python train_model.py && streamlit run app.py --server.fileWatcherType=none --server.port 8501 --server.headless true"
